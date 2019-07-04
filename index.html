@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PortFolio | . . . S</title>
+	<link rel="icon" type="image/ico" href="imgs/#">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Antic|Metrophobic|Saira|Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<!--script>
+		document.addEventListener('contextmenu', event => event.preventDefault());
+	</script-->
+
+</head>
+
+<body>
+
+	<!--Div Left-->
+	<div class="col-lg-6 imgdiv">
+		<img src="img/divbg.jpg" class="img-fluid leftcover">
+	</div>
+
+	<!--Div Right-->
+
+	<div class="col-lg-6 ctntdiv">
+		<!--Navbar-->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-faded" style="background-color:#FFFFFF;">
+			<a class="navbar-brand" href="index.html">BRAND</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartext"
+				aria-controls="navbartext" aria-expanded="false" aria-label="Toggle Navigation"><span
+					class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbartext">
+				<div class="navbar-nav ml-auto">
+					<a class="nav-item nav-link" href="">Home</a>
+					<a class="nav-item nav-link" href="#skills">Skills</a>
+					<a class="nav-item nav-link" href="#works">My Works</a>
+					<a class="nav-item nav-link" href="#contact">Contact</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<img class=" img-fluid openimg" src="img/opener.png"> <!--REPLACE With you Logo-->
+				<h2 class="opentxt">Your Name<br /><span id="des">Your Designation</span></h2>
+
+			</div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><br/>
+				<p class="content">Lorem ipsum dolor sit amet The point of using Lorem Ipsum is that it has a
+					more-or-less normal distribution of letters,
+					as opposed to using 'Content here, making it look like readable English.<br><br>
+					Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+					text,
+					and a search for 'lorem ipsum' will uncover many web sites still in their infancy.<br><br>
+					Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+				style="text-align:center; box-shadow: 0px 0px 2px 2px; border-radius: 3px; margin-top: 20px;"
+				id="works">
+				<h3 style="text-align:center;">MY WORKS</h3>
+
+
+				<!--Work 1-->
+				<button type="button" class="btn btn-sm mdbtn" data-toggle="modal" data-target="#work2">Work 1</button>
+				<div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title" id="ModalLabel">Work 1</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p class="modtxt">Lorem ipsum dolor sit amet The point of using Lorem Ipsum is that 
+									it has a more-or-less normal distribution of letters, as opposed to using 
+									'Content here, content here', making it look like readable English.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Work 2 -->
+				<button type="button" class="btn btn-sm mdbtn" data-toggle="modal" data-target="#work2">Work 2</button>
+				<div class="modal fade" id="work2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="ModalLabel">Work 2</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p class="modtxt">Lorem ipsum dolor sit amet The point of using Lorem Ipsum is that 
+										it has a more-or-less normal distribution of letters, as opposed to using 
+										'Content here, content here', making it look like readable English.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!--Work 3-->
+				<button type="button" class="btn btn-sm mdbtn" data-toggle="modal" data-target="#work3">Work 3</button>
+				<div class="modal fade" id="work3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="ModalLabel">Work 3</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p class="modtxt">Lorem ipsum dolor sit amet The point of using Lorem Ipsum is that 
+										it has a more-or-less normal distribution of letters, as opposed to using 
+										'Content here, content here', making it look like readable English.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!--Work 4-->
+				<button type="button" class="btn btn-sm mdbtn" data-toggle="modal" data-target="#work4">Work 4</button>
+				<div class="modal fade" id="work4" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="ModalLabel">Work 4</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p class="modtxt">Lorem ipsum dolor sit amet The point of using Lorem Ipsum is that 
+										it has a more-or-less normal distribution of letters, as opposed to using 
+										'Content here, content here', making it look like readable English.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Work 5 -->
+				<button type="button" class="btn btn-sm mdbtn" data-toggle="modal" data-target="#work5">Work 5</button>
+				<div class="modal fade" id="work5" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="ModalLabel">Work 5</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p class="modtxt">Lorem ipsum dolor sit amet The point of using Lorem Ipsum is that 
+										it has a more-or-less normal distribution of letters, as opposed to using 
+										'Content here, content here', making it look like readable English.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<h4>Click to Open...</h4><br />
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="skills">
+
+				<h3 class="progressbar-title">Skill 1</h3>
+				<div class="progress">
+					<div class="progress-bar" style="width: 70%; background: #82589F;"><span
+							style="color: #82589F;">70%</span></div>
+				</div>
+
+				<h3 class="progressbar-title">Skill 2</h3>
+				<div class="progress">
+					<div class="progress-bar" style="width: 60%; background: #F97F51;"><span
+							style="color: #F97F51;">60%</span></div>
+				</div>
+
+				<h3 class="progressbar-title">Skill 3</h3>
+				<div class="progress">
+					<div class="progress-bar" style="width: 35%; background: #4cd137;"><span
+							style="color: #4cd137;">35%</span></div>
+				</div>
+
+				<h3 class="progressbar-title">Skill 4</h3>
+				<div class="progress">
+					<div class="progress-bar" style="width: 80%; background: #ed687c;"><span
+							style="color: #ed687c;">80%</span></div>
+				</div>
+
+				<h3 class="progressbar-title">Skill 5</h3>
+				<div class="progress">
+					<div class="progress-bar" style="width: 50%; background: #ffb300;"><span
+							style="color: #ffb300;">50%</span></div>
+				</div>
+
+				<h3 class="progressbar-title">Skill 6</h3>
+				<div class="progress">
+					<div class="progress-bar" style="width: 20%; background: #9c27b0;"><span
+							style="color: #9c27b0;">20%</span></div>
+				</div>
+
+				<h3 class="progressbar-title">Skill 7</h3>
+				<div class="progress">
+					<div class="progress-bar" style="width: 20%; background: #25CCF7;"><span
+							style="color: #25CCF7;">20%</span></div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<footer class="footer" style="text-align:center;">
+			<h3 id="contact">Contact</h3>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<h5>Mail:<br>test@mail.com</h5>
+					<h5>Phone:<br>+00 ----- -----</h5>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div class="col-lg-12 copyright" style="text-align:center;">
+				© 2019 Copyright<br />
+				Designed by <a href="https://www.linkedin.com/in/dhanakoti-s/" target="_blank">Dhanakoti Shanmugasundaram</a>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
