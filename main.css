@@ -1,6 +1,6 @@
 * {
   scroll-behavior: smooth;
-  font-family: 'Antic';
+  font-family:'Quicksand', sans-serif;
 }
 .leftcover {
   height: 100vh;
@@ -15,7 +15,7 @@
 }
 .ctntdiv {
   background-color: white;
-  padding: 4%;
+  padding: 2%;
   float: right;
   margin: auto;
   align-content: center;
@@ -40,6 +40,10 @@
   font-size: 15px;
 }
 
+#works{
+  padding: 20px;
+}
+
 .mdbtn {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -49,6 +53,10 @@
 }
 .mdbtn:hover {
   box-shadow: 2px 2px 5px 0px rgb(87, 85, 85);
+}
+
+#skills{
+  padding: 40px;
 }
 
 .progressbar-title {
